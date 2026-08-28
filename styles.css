@@ -1,0 +1,42 @@
+:root{
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-background: #100a17;
+    --color-titulo: #ca4343;
+    --color-texto1: #19184a;
+    --color-texto2: #2b1036;
+    --color-texto3: #36102a;
+    --color-texto4: #361010;
+    --color-backfin: #000000;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body{
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: var(--color-titulo)
+}
+
+#multimedia{
+    display: block;
+}
+
+#controles{
+    display: flex;
+    justify-content: center;
+}
+
+#fnafbeatbox{
+    width: 25rem;
+    height: auto;
+}
