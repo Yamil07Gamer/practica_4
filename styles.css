@@ -8,6 +8,7 @@
     --color-texto3: #36102a;
     --color-texto4: #361010;
     --color-backfin: #000000;
+    --color-half_life: #ff7700;
 
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -21,6 +22,14 @@ body{
 h1,h2{
     display: flex;
     justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
 }
 
 a{
@@ -39,4 +48,26 @@ a{
 #fnafbeatbox{
     width: 25rem;
     height: auto;
+}
+
+#form_inputs{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    margin: 1rem 0.5rem;
+}
+
+#figuras{
+    border: 1px solid var(--color-white);
+    
+}
+
+#summarys_son{
+    font-size: 2rem;
+}
+
+#barra_progreso{
+    color: var(--color-half_life);
 }

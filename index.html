@@ -17,9 +17,10 @@
 
         <nav class="navegacion">
             <a href="#multimedia">Multimedia</a>
-            <a href="#formulario">formulario</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
+            <a href="#formulario">Formulario</a>
+            <a href="#canvas">Canvas</a>
+            <a href="#summarys">Otros detalles</a>
+            <a href="#resto_de_etiquetas">Otros detalles</a>
         </nav>
     </header>
 
@@ -32,7 +33,7 @@
             <h2>Multimedia</h2>
             <section id="controles">
                 <audio controls>
-                    <source src="audios/Hazardous Evironments.mp3" type="audio/mp3">
+                    <source src="audios/Hazardous Evironments.mp3" type="audio/mpeg">
                     <source src="audios/Hazardous Evironments.ogg" type="audio/ogg">
                 </audio>
                 <video controls id="fnafbeatbox" poster="imagenes/grandes/fnafbeatbox.jpg">
@@ -42,17 +43,91 @@
             </section>
         </section><br>
 
+
+
+        <!-- Formularios-->
         <section id="formulario">
             <h2>Formulario</h2>
-            
+            <form action="">
+                <section id="form_inputs">
+                    <label for="Texto">Texto: <input type="text" placeholder="Hola mundo"></label>
+                    <label for="Email"> Email: <input type="email" placeholder="ejemplo@gmail.com" required></label>
+                    <label for="Numero">Numero: <input type="number" placeholder="25"></label>
+                    <label for="Fecha"> Fecha: <input type="date" ></label>
+                    <label for="Tiempo">Tiempo: <input type="time" ></label>
+                    <label for="Color"> Color. <input type="color"></label>
+                    <label for="Busqueda">Busqueda: <input type="search" placeholder="Half Life 3 ya salio?" required></label>
+                    <label for="juegos">Seleccione que juego debería de salir ya:</label>
+                        <input type="text" id="juegos" list="lista_juegos" required>
+                        <datalist id="lista_juegos">
+                            <option value="Half Life 3">
+                            <option value="GTA 6">
+                            <option value="Fable">
+                            <option value="Left 4 Dead 3">
+                            <option value="Team Fortress 3">
+                        </datalist>
+                        <button type="submit">Enviar</button>
+                </section>
+            </form>
+        </section>
+
+        <section id="canvas">
+            <section>
+                <h2>Canvas</h2>
+            </section>
+            <section id="figuras">
+                <canvas id="c" width="500" height="200">
+                </canvas>
+                <canvas id="d" width="500" height="200">
+                </canvas>
+                <canvas id="e" width="500" height="200"> 
+                </canvas>
+            </section>
         </section>
 
 
-    </main>
+        <section id="summarys">
+            <h2>Otros detalles</h2>
+            <section id="summarys_son">
+                <aside>
+                    <details>
+                        <summary>¿Por que me gusta Half Life</summary>
+                        <span><ul>Su lore, jugabilidad, los detalles en el mapa</ul></span>
+                    </details>
+                </aside>
+            </section>
+        </section><br><br>
+
+        <section id="resto_de_etiquetas">
+            <span>Fecha desde lo ultimo de Half Life <mark>(NO SPIN OFFS)</mark></span><br>
+            <time datetime="2007-10-10">10 de Octubre del 2007</time>
+        </section>
+
+    </main><br><br>
+
+    <figure>
+        <img src="imagenes/grandes/half life meme.webp" alt="Gordon Freeman">
+        <figcaption>Half Life, Miniatura por: @TheProphetyt</figcaption>
+    </figure>
+
+    <span>Progreso de Haf Life 3</span>
+    <progress id="barra_progreso" value="40" max="100"></progress><span> solo Valve sabe</span><br><br>
 
     <footer>
-
+        <span>
+            Nombre: Yamil Alexei Courtois Paredes
+        </span><br>
+        <span>
+            Carrrera: Licenciatura en sistemas computacionales
+        </span><br>
+        <span>
+            Número de práctica: 4
+        </span><br>
+        <span>
+            Fecha de elaboración: 28/08/2026
+        </span>
     </footer>
 
+    <script src="script.js" defer></script>
 </body>
 </html>
