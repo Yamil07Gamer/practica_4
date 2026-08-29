@@ -55,6 +55,15 @@ a{
     justify-content: center;
 }
 
+#summarys_son, #resto_de_etiquetas{
+    justify-content: center;
+    margin-left: 25%;
+}
+
+#progreso{
+    margin-left: 27%;
+}
+
 summary{
     cursor: crosshair;
 }
