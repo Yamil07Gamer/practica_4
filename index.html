@@ -49,23 +49,27 @@
             <h2>Formulario</h2>
             <form action="">
                 <section id="form_inputs">
-                    <label for="Texto">Texto: <input type="text" placeholder="Hola mundo"></label>
-                    <label for="Email"> Email: <input type="email" placeholder="ejemplo@gmail.com" required></label>
-                    <label for="Numero">Numero: <input type="number" placeholder="25"></label>
-                    <label for="Fecha"> Fecha: <input type="date" ></label>
-                    <label for="Tiempo">Tiempo: <input type="time" ></label>
-                    <label for="Color"> Color. <input type="color"></label>
-                    <label for="Busqueda">Busqueda: <input type="search" placeholder="Half Life 3 ya salio?" required></label>
-                    <label for="juegos">Seleccione que juego debería de salir ya:</label>
-                        <input type="text" id="juegos" list="lista_juegos" required>
-                        <datalist id="lista_juegos">
-                            <option value="Half Life 3">
-                            <option value="GTA 6">
-                            <option value="Fable">
-                            <option value="Left 4 Dead 3">
-                            <option value="Team Fortress 3">
-                        </datalist>
-                        <button type="submit">Enviar</button>
+                    <section>
+                        <label for="Texto">Texto: <input type="text" placeholder="Hola mundo"></label>
+                        <label for="Email"> Email: <input type="email" placeholder="ejemplo@gmail.com" required></label>
+                        <label for="Numero">Numero: <input type="number" placeholder="25"></label>
+                        <label for="Fecha"> Fecha: <input type="date" ></label>
+                    </section><br>
+                    <section>
+                        <label for="Tiempo">Tiempo: <input type="time" ></label>
+                        <label for="Color"> Color. <input type="color"></label>
+                        <label for="Busqueda">Busqueda: <input type="search" placeholder="Half Life 3 ya salio?" required></label>
+                        <label for="juegos">Seleccione que juego debería de salir ya:</label>
+                            <input type="text" id="juegos" list="lista_juegos" required>
+                            <datalist id="lista_juegos">
+                                <option value="Half Life 3">
+                                <option value="GTA 6">
+                                <option value="Fable">
+                                <option value="Left 4 Dead 3">
+                                <option value="Team Fortress 3">
+                            </datalist>
+                            <button type="submit">Enviar</button>
+                    </section>
                 </section>
             </form>
         </section>
