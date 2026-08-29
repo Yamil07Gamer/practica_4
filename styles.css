@@ -47,7 +47,7 @@ a{
 
 #fnafbeatbox{
     width: 25rem;
-    height: auto;
+    height: 30rem;
 }
 
 #form_inputs{
@@ -55,7 +55,9 @@ a{
     justify-content: center;
 }
 
-
+summary{
+    cursor: crosshair;
+}
 
 label{
     margin: 1rem 0.5rem;
