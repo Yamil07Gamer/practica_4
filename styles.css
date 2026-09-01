@@ -68,11 +68,6 @@ header{
     height: 30rem;
 }
 
-#form_inputs{
-    display: flex;
-    justify-content: center;
-}
-
 #summarys_son, #resto_de_etiquetas{
     justify-content: center;
     margin-left: 25%;
